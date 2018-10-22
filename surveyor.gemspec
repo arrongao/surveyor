@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_dependency('rails', '>= 3.2')
+  s.add_dependency('rails', '>= 5.0')
   s.add_dependency('haml', '~> 5.0')
   s.add_dependency('sass')
   s.add_dependency('formtastic', '~> 2.2.1') # 2.1 requries actionpack 3.0
